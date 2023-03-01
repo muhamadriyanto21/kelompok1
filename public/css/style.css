@@ -1,0 +1,131 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap');
+
+/* variables */
+:root {
+    --c-brand:#4AC064;
+    --c-brand-light:#F3FDEE;
+    --c-dark: #0c130c;
+    --c-body: #e1f1e1;
+    --f-main: "Lato", serif;
+    /* --f-heading: "Lato", serif; */
+    --transition: all .6s cubic-bezier(.165, .84, .44, 1);
+    --shadow: opx 15px 40px rgba(0,0,0,0.1);
+}
+
+/* Reset & Helpers */
+body {
+    font-family: var(--f-main);
+    color: var(c-body);
+    line-height: 1.7;
+    height: 3000px;
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    font-weight: 700;
+    color: var(--c-dark);
+}
+
+a {
+    text-decoration: none;
+    color: var(--c-dark);
+    transition: var(--transition);
+}
+
+a:hover {
+    color: var(--c-brand);
+}
+
+img {
+    width: 100%;
+}
+
+.section-padding {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.section-tittle {
+    max-width: 560px;
+    margin: 0 auto 60px auto;
+
+    
+}
+/* Navbar */
+.navbar {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: transparent;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+}
+
+.navbar .navbar-nav .nav-link {
+    font-weight: 500;
+    color: var(--c-dark);
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    font-weight: 500;
+    color: var(--c-brand);
+}
+
+.navbar-brand img {
+    width: 100px;
+    height: 100%;
+    /* margin-left: 50px; */
+}
+
+/* Button */
+.btn {
+    padding: 10px 24px;
+    border-radius: 8px;
+    border-width: 2px;
+    font-weight: 500;
+}
+
+.btn-brand,
+.btn-brand:focus {
+    background-color: var(--c-brand);
+    color: white;
+    border-color: var(--c-brand);
+    padding: 12px 24px;
+}
+
+.btn-brand:hover {
+    background-color: var(--c-dark);
+    color: white;
+    border-color: var(--c-dark);
+}
+
+/* Hero */
+.col-md-6 img {
+    width: 590px;
+    height: 461px;
+}
+
+.text-green {
+    color: var(--c-brand);
+}
+
+/* feature */
+.feature-icon img {
+    width: 60px;
+    height: 60px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-link {
+    display: inline-flex;
+    align-items: center;
+}
+
+.feature {
+    background-color: var(--c-brand-light);
+}
