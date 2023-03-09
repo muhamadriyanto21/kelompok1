@@ -3,70 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Tourism Surabaya</title>
-    <!-- bootstrap -->
+    <title>Destinasi</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <!-- icon from font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-    <!-- css -->
-    <link rel="stylesheet" href="{{ asset('css/style.css')}}">
-
-    <!-- desniasi -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-      <!-- style css -->
-      <link rel="stylesheet" type="text/css" href="css/style.css">
-      <!-- Responsive-->
-      <link rel="stylesheet" href="css/responsive.css">
-      <!-- fevicon -->
-      <link rel="icon" href="images/fevicon.png" type="image/gif" />
-      <!-- Scrollbar Custom CSS -->
-      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
-      <!-- Tweaks for older IEs-->
-      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-      <!-- fonts -->
-      <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
-      <!-- font awesome -->
-      <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-      <!--  -->
-      <!-- owl stylesheets -->
-      <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Poppins:400,700&display=swap&subset=latin-ext" rel="stylesheet">
-      <link rel="stylesheet" href="css/owl.carousel.min.css">
-      <link rel="stylesoeet" href="css/owl.theme.default.min.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
   </head>
   <body>
     
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top bg-white">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="https://tourism.surabaya.go.id/assets/front/images/img-logo-sparkling.png" alt="">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" href="/">Beranda</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="destinasi">Destinasi</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="kuliner">Kuliner</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="login">Login</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="signup">Sign Up</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  <!-- destinasi -->
+   <!-- main -->
+      
     <!-- banner bg main start -->
     <div class="banner_bg_main">
          <!-- header top section start -->
@@ -717,12 +660,9 @@
            document.getElementById("mySidenav").style.width = "0";
          }
       </script>
-  <!-- end destinasi -->
-
-    
-
+   <!-- main -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <script src="./assets/js/app.js"></script>
   </body>
-</html>
+</html>    
+ 
