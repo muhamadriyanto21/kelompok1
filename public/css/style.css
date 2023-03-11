@@ -18,7 +18,7 @@ body {
     font-family: var(--f-main);
     color: var(c-body);
     line-height: 1.7;
-    height: 3000px;
+    /* height: 3000px; */
 }
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     font-weight: 700;
