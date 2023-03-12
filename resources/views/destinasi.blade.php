@@ -81,7 +81,9 @@
     <div class="row mt-5">
       <div class="col-md-3">
         <img src="images/gwalk.jpg" class="img-fluid rounded">
-        <button type="button" style="background-color: #4AC064; border-radius: 40px; border: none; height: 26px; width: 66px; " class="btn btn-success">All</button>
+            <div class="tengah align-middle">
+            <button type="button" style="background-color: #4AC064; border-radius: 40px; border: none; height: 26px; width: 66px;" class="btn btn-success ">All</button>
+            </div>
         <h3 class="" style="font-size: 30px;">G Walk Citraland Surabaya</h3>
         <p style="font-size: 16px;">Baca Sekarang</p>
       </div>
@@ -108,12 +110,13 @@
 
 
   <!-- kedua -->
-
   <div class="container">
     <div class="row mt-5">
       <div class="col-md-3">
         <img src="images/gwalk.jpg" class="img-fluid rounded">
-        <button type="button" style="background-color: #4AC064; border-radius: 40px; border: none; height: 26px; width: 66px; " class="btn btn-success">All</button>
+            <div class="tengah align-middle">
+            <button type="button" style="background-color: #4AC064; border-radius: 40px; border: none; height: 26px; width: 66px;" class="btn btn-success ">All</button>
+            </div>
         <h3 class="" style="font-size: 30px;">G Walk Citraland Surabaya</h3>
         <p style="font-size: 16px;">Baca Sekarang</p>
       </div>
@@ -137,7 +140,6 @@
       </div>
     </div>
   </div>
-  <!-- end gwalk -->
 
 
 

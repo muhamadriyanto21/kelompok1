@@ -125,13 +125,13 @@
       </div>
       <div class="col-md-3">
         <img src="images/gwalk.jpg" class="img-fluid rounded">
-        <button type="button" style="background-color: #4AC064; border-radius: 40px; border: none; height: 26px; width: 66px; " class="btn btn-success">All</button>
+        <button type="button" style="background-color: #4AC064; border-radius: 40px; border: none;" class="btn btn-success">All</button>
         <h3 class="" style="font-size: 30px;">G Walk Citraland Surabaya</h3>
         <p style="font-size: 16px;">Baca Sekarang</p>
       </div>
       <div class="col-md-3">
         <img src="images/gwalk.jpg" class="img-fluid rounded">
-        <button type="button" style="background-color: #4AC064; border-radius: 40px; border: none; height: 26px; width: 66px; " class="btn btn-success">All</button>
+        <button type="button" style="background-color: #4AC064; border-radius: 40px; border: none;" class="btn btn-success">All</button>
         <h3 class="" style="font-size: 30px;">G Walk Citraland Surabaya</h3>
         <p style="font-size: 16px;">Baca Sekarang</p>
       </div>
